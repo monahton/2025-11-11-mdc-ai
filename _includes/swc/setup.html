@@ -1,6 +1,5 @@
 {% assign curricula = "swc-gapminder|swc-inflammation"  | split: "|" %}
 {% unless curricula contains site.curriculum %}
-{% include warning-curriculum.html %}
 {% endunless %}
 
 
@@ -12,7 +11,6 @@
 {% include install_instructions/r.html %}
 {% include install_instructions/python.html %}
 {% else %}
-{% include warning-flavor.html %}
 {% endif %}
 
 {% comment %}
