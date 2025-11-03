@@ -3,13 +3,7 @@ layout: page
 title: Installation Instructions
 permalink: /install_instructions/index.html
 tools:
-  - editor
-  - git
-  - openrefine
-  - python
   - r
-  - shell
-  - sql
   - videoconferencing
 ---
 
